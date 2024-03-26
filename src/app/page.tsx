@@ -1,6 +1,4 @@
 "use client"
-
-import Head from "next/head";
 import { useState } from "react";
 
 export default function Home() {
@@ -27,9 +25,9 @@ export default function Home() {
 
   return (
     <>
-    <Head>
+    <head>
       <title>TodoList</title>
-    </Head>
+    </head>
     <main className="flex flex-col items-center justify-center min-h-screen py-2">
     <h1 className="text-4xl font-bold text-gray-800 -mt-31">
         TodoList
